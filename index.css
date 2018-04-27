@@ -1,0 +1,10 @@
+.bg-navbar {
+    background-color: #f5874b;
+    color: white;
+    min-height: 20px;
+    font-weight: bold;
+}
+
+.movie-img {
+    max-height: 250px;
+}
