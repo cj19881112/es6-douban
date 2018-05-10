@@ -1,10 +1,32 @@
 .bg-navbar {
-    background-color: #f5874b;
-    color: white;
-    min-height: 20px;
-    font-weight: bold;
+  background-color: #f5874b;
+  color: white;
+  min-height: 20px;
+  font-weight: bold;
 }
 
 .movie-img {
-    max-height: 250px;
+  max-height: 250px;
 }
+
+#error-container {
+  display: none;
+}
+
+.loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.loader::after {
+  position: absolute;
+  top: 50%;
+  content: '加载中...';
+  font-weight: bold;
+}
+
